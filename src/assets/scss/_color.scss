@@ -1,0 +1,392 @@
+:root {
+  
+   --bgcolor-0: rgb(255, 255, 255);
+   --bgcolor-1: rgb(250, 250, 250);
+   --bgcolor-2: rgb(245, 245, 245);
+   --bgcolor-3: rgb(235, 235, 235);
+   --bgcolor-4: rgb(225, 225, 225);
+   --bgcolor-5: rgb(215, 215, 215);
+   --bgcolor-6: rgb(205, 205, 205);
+   --bgcolor-7: rgb(195, 195, 195);
+   --bgcolor-8: rgb(185, 185, 185);
+   --bgcolor-9: rgb(175, 175, 175);
+   
+   --bgcolor-0-invert: rgb(20, 20, 20);
+   --bgcolor-1-invert: rgb(30, 30, 30);
+   --bgcolor-2-invert: rgb(40, 40, 40);
+   --bgcolor-3-invert: rgb(50, 50, 50);
+   --bgcolor-4-invert: rgb(60, 60, 60);
+   --bgcolor-5-invert: rgb(70, 70, 70);
+   --bgcolor-6-invert: rgb(80, 80, 80);
+   --bgcolor-7-invert: rgb(90, 90, 90);
+   --bgcolor-8-invert: rgb(110, 110, 110);
+   --bgcolor-9-invert: rgb(120, 120, 120);
+   
+   --text-color-0: rgb(20, 20, 20);
+   --text-color-1: rgb(30, 30, 30);
+   --text-color-2: rgb(50, 50, 50);
+   --text-color-3: rgb(70, 70, 70);
+   --text-color-4: rgb(90, 90, 90);
+   --text-color-5: rgb(110, 110, 110);
+   --text-color-6: rgb(130, 130, 130);
+   --text-color-7: rgb(150, 150, 150);
+   --text-color-8: rgb(170, 170, 170);
+   --text-color-9: rgb(190, 190, 190);
+   
+   --text-color-0-invert: rgb(255, 255, 255);
+   --text-color-1-invert: rgb(235, 235, 235);
+   --text-color-2-invert: rgb(215, 215, 215);
+   --text-color-3-invert: rgb(195, 195, 195);
+   --text-color-4-invert: rgb(175, 175, 175);
+   --text-color-5-invert: rgb(155, 155, 155);
+   --text-color-6-invert: rgb(135, 135, 135);
+   --text-color-7-invert: rgb(115, 115, 115);
+   --text-color-8-invert: rgb(95, 95, 95);
+   --text-color-9-invert: rgb(75, 75, 75);
+  
+   --color-red: rgb(235, 78, 61);
+   --color-red-dark: rgb(202, 52, 35);
+   --color-red-light: rgba(202, 52, 35, 0.0918);
+   --color-orange: rgb(255, 154, 40);
+   --color-orange-dark: rgb(255, 125, 0);
+   --color-orange-light: rgba(254, 135, 0, 0.0918);
+   --color-yellow: rgb(232, 189, 46);
+   --color-yellow-dark: rgb(156, 128, 25);
+   --color-yellow-light: rgba(184, 151, 33, 0.0918);
+   --color-green: rgb(43, 198, 126);
+   --color-green-dark: rgb(29, 172, 108);
+   --color-green-light: rgba(56, 144, 58, 0.0918);
+   --color-mint: rgb(90, 196, 189);
+   --color-mint-dark: rgb(33, 102, 97);
+   --color-mint-light: rgba(46, 134, 128, 0.0918);
+   --color-teal: rgb(90, 174, 196);
+   --color-teal-dark: rgb(37, 97, 112);
+   --color-teal-light: rgba(49, 123, 141, 0.0918);
+   --color-cyan: rgb(89, 171, 225);
+   --color-cyan-dark: rgb(41, 105, 148);
+   --color-cyan-light: rgba(52, 131, 184, 0.0918);
+   --color-blue: rgb(52, 120, 246);
+   --color-blue-dark: rgb(35, 103, 230);
+   --color-blue-light: #e9edf7;
+   --color-indigo: rgb(88, 86, 207);
+   --color-indigo-dark: rgb(53, 51, 157);
+   --color-indigo-light: rgba(53, 51, 157, 0.0918);
+   --color-purple: rgb(162, 88, 215);
+   --color-purple-dark: rgb(100, 43, 140);
+   --color-purple-light: rgba(123, 58, 170, 0.0918);
+   --color-pink: rgb(235, 68, 90);
+   --color-pink-dark: rgb(156, 29, 46);
+   --color-pink-light: rgba(186, 35, 55, 0.0918);
+   --color-brown: rgb(157, 133, 99);
+   --color-brown-dark: rgb(86, 67, 40);
+   --color-brown-light: rgba(110, 86, 53, 0.0918);
+   --color-gray: rgb(142, 142, 147);
+   --color-gray-dark: rgb(83, 83, 83);
+   --color-gray-light: rgba(83, 83, 83, 0.0918);
+   --color-black: var(--bgcolor-2-invert);
+   --color-black-dark: var(--bgcolor-0-invert);
+   --color-black-light: var(--bgcolor-5);
+    
+   --color-success: var(--color-green);
+   --color-success-dark: var(--color-green-dark);
+   --color-success-light: var(--color-green-light);
+   
+   --color-normal: var(--color-gray);
+   --color-normal-dark: var(--color-gray-dark);
+   --color-normal-light: var(--color-gray-light);
+ 
+   --color-danger: var(--color-red);
+   --color-danger-dark: var(--color-red-dark);
+   --color-danger-light: var(--color-red-light);
+ 
+   --color-error: var(--color-red);
+   --color-error-dark: var(--color-red-dark);
+   --color-error-light: var(--color-red-light);
+   
+   --color-warning: var(--color-orange);
+   --color-warning-dark: var(--color-orange-dark);
+   --color-warning-light: var(--color-orange-light);
+ 
+   --color-info: var(--color-blue);
+   --color-info-dark: var(--color-blue-dark);
+   --color-info-light: var(--color-blue-light);
+
+   --color-primary: var(--color-blue);
+   --color-primary-dark: var(--color-blue-dark);
+   --color-primary-light: var(--color-blue-light);
+  
+  
+   --color-white: #fff;
+   --color-white-text: rgba(255, 255, 255, 0.9);
+  
+   --disabled-opacity: 0.3;
+   --box-shadow: 0px 2px 2px -2px rgba(0, 0, 0, 0.5);
+  
+ 
+   --border-radius-mini: 4px;
+   --border-radius-sm: 8px;
+   --border-radius-md: 12px;
+   --border-radius-lg: 16px;
+
+   --border-0: 1px solid rgb(245, 245, 245);
+   --border-1: 1px solid rgb(235, 235, 235);
+   --border-2: 1px solid rgb(225, 225, 225);
+   --border-3: 1px solid rgb(215, 215, 215);
+   --border-4: 1px solid rgb(205, 205, 205);
+   --border-5: 1px solid rgb(195, 195, 195);
+   --border-6: 1px solid rgb(185, 185, 185);
+   --border-7: 1px solid rgb(175, 175, 175);
+   --border-8: 1px solid rgb(165, 165, 165);
+   --border-9: 1px solid rgb(155, 155, 155);
+   
+   --title-bold: 800;
+   
+   --form-border-width: 2px;
+   --form-transition: all 0.2s cubic-bezier(0.3, 1.3, 0.3, 1);
+   --form-ouline: 0px var(--color-primary-light) solid;
+   --form-bgcolor: rgb(243, 243, 243);
+   --form-bgcolor-hover: rgb(228, 228, 228);
+   --form-bgcolor-active: rgb(215, 215, 215);
+   --form-bgcolor-focus: rgb(255, 255, 255);
+   --form-border-color: transparent;
+   --form-border-color-hover: rgb(211, 209, 209);
+   --form-border-color-active: rgba(0, 0, 0, 0.22);
+   --form-border-color-focus: var(--color-primary);
+   
+   --form-input-padding-sm: 2px 10px;
+   --form-input-padding-md: 4px 12px;
+   --form-input-padding-lg: 6px 14px;
+   --form-item-height-sm: 30px;
+   --form-item-height-md: 34px;
+   --form-item-height-lg: 38px;
+   --form-input-line-height-sm: 22px;
+   --form-input-line-height-md: 24px;
+   --form-input-line-height-lg: 26px;
+   --form-font-size-sm: 13px;
+   --form-font-size-md: 14px;
+   --form-font-size-lg: 16px;
+
+   --form-icon-opacity: 1;
+   --form-icon-opacity-hover: 0.8;
+   --form-icon-opacity-active: 1;
+    
+   --checkbox-block-color: var(--bgcolor-2);
+   --checkbox-border-color: var(--bgcolor-4);
+   --checkbox-color: var(--color-primary);
+   --checkbox-color-light: var(--color-primary-light);
+   --checkbox-border-color-hover: var(--color-primary);
+   --radio-block-color: var(--bgcolor-2);
+   --radio-border-color: var(--bgcolor-4);
+   --radio-border-color-hover: var(--color-primary);
+   --radio-color: var(--color-primary);
+   --radio-color-light: var(--color-primary-light);
+    
+   --tabs-active-color: #fff;
+    
+   --modal-bgcolor: rgba(0, 0, 0, 0.6);
+   --modal-header-border: 1px rgb(227, 227, 233) solid;
+   --modal-footer-border: 1px rgb(227, 227, 233) solid;
+   
+   --drawer-bgcolor: rgba(0, 0, 0, 0.6);
+   --drawer-header-border: 1px rgb(227, 227, 233) solid;
+   --drawer-footer-border: 1px rgb(227, 227, 233) solid;
+    
+   --modal-box-bgcolor: #fff;
+   
+   --loading-bgcolor: rgb(255, 255, 255, 0.8);
+    
+   --table-header-bgColor: rgb(249, 249, 249);
+   --table-border: 1px #f6f5f8 solid;
+   --table-tr-selected: #eef3ff;
+   --table-scroll-line-color-start: rgba(0, 0, 0, 0);
+   --table-scroll-line-color-end: rgba(0, 0, 0, 0.15);
+   --pop-bg: rgba(255, 255, 255, 1);
+   --pop-bg-active: rgba(0, 0, 0, 0.05);
+   --tooltip-bg: #fff;
+   --tooltip-color: #000;
+  }
+  
+  .dark {
+   --color-red: rgba(235, 86, 69, 0.862);
+   --color-red-dark: rgb(255, 97, 89);
+   --color-red-light: rgba(255, 106, 89, 0.0918);
+   --color-orange: rgba(242, 163, 60, 0.764);
+   --color-orange-dark: rgb(255, 196, 77);
+   --color-orange-light: rgba(255, 178, 77, 0.0918);
+   --color-yellow: rgba(255, 224, 84, 0.774);
+   --color-yellow-dark: rgb(255, 246, 65);
+   --color-yellow-light: rgba(255, 220, 65, 0.0918);
+   --color-green: rgb(59, 172, 119);
+   --color-green-dark: rgb(94, 241, 136);
+   --color-green-light: rgba(105, 206, 103, 0.0918);
+   --color-mint: rgba(131, 210, 206, 0.755);
+   --color-mint-dark: rgb(144, 229, 225);
+   --color-mint-light: rgba(144, 229, 225, 0.0918);
+   --color-teal: rgba(128, 193, 217, 0.787);
+   --color-teal-dark: rgb(139, 210, 236);
+   --color-teal-light: rgba(139, 210, 236, 0.0918);
+   --color-cyan: rgba(106, 196, 221, 0.762);
+   --color-cyan-dark: rgb(116, 217, 244);
+   --color-cyan-light: rgba(116, 216, 244, 0.0918);
+   --color-blue: rgb(43, 135, 255);
+   --color-blue-dark: rgb(43, 135, 255);
+   --color-blue-light: #28303f;
+   --color-indigo: rgb(95, 93, 222);
+   --color-indigo-dark: rgb(119, 105, 245);
+   --color-indigo-light: rgba(107, 105, 245, 0.0918);
+   --color-purple: rgba(179, 96, 234, 0.869);
+   --color-purple-dark: rgb(214, 87, 253);
+   --color-purple-light: rgba(199, 114, 255, 0.0918);
+   --color-pink: rgba(237, 94, 115, 0.823);
+   --color-pink-dark: rgb(255, 73, 100);
+   --color-pink-light: rgba(234, 75, 99, 0.0918);
+   --color-brown: rgba(167, 143, 109, 0.9);
+   --color-brown-dark: rgb(255, 199, 121);
+   --color-brown-light: rgba(203, 175, 136, 0.0918);
+   --color-gray: rgb(152, 152, 157);
+   --color-gray-dark: rgb(240, 240, 240);
+   --color-gray-light: rgba(209, 209, 209, 0.0918);
+   --color-black: var(--bgcolor-2-invert);
+   --color-black-dark: var(--bgcolor-0-invert);
+   --color-black-light: var(--bgcolor-1);
+  
+   --color-success: var(--color-green);
+   --color-success-dark: var(--color-green-dark);
+   --color-success-light: var(--color-green-light);
+    // 常规
+   --color-normal: var(--color-gray);
+   --color-normal-dark: var(--color-gray-dark);
+   --color-normal-light: var(--color-gray-light);
+    // 危险
+   --color-danger: var(--color-red);
+   --color-danger-dark: var(--color-red-dark);
+   --color-danger-light: var(--color-red-light);
+    // 错误
+   --color-error: var(--color-red);
+   --color-error-dark: var(--color-red-dark);
+   --color-error-light: var(--color-red-light);
+    // 警告
+   --color-warning: var(--color-orange);
+   --color-warning-dark: var(--color-orange-dark);
+   --color-warning-light: var(--color-orange-light);
+    // 提示
+   --color-info: var(--color-blue);
+   --color-info-dark: var(--color-blue-dark);
+   --color-info-light: var(--color-blue-light);
+    // 主题色
+   --color-primary: var(--color-blue);
+   --color-primary-dark: var(--color-blue-dark);
+   --color-primary-light: var(--color-blue-light);
+    // 全局
+   --color-white: #fff;
+   --color-white-text: rgba(255, 255, 255, 0.9);
+  
+    // 全局
+   --box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.8);
+    // 背景
+   --bgcolor-0: rgb(26, 27, 32);
+   --bgcolor-1: rgb(39, 40, 46);
+   --bgcolor-2: rgb(52, 53, 60);
+   --bgcolor-3: rgb(65, 66, 73);
+   --bgcolor-4: rgb(78, 79, 86);
+   --bgcolor-5: rgb(91, 92, 99);
+   --bgcolor-6: rgb(104, 105, 112);
+   --bgcolor-7: rgb(117, 118, 125);
+   --bgcolor-8: rgb(130, 131, 138);
+   --bgcolor-9: rgb(143, 144, 151);
+    // 背景反相
+   --bgcolor-0-invert: rgb(255, 255, 255);
+   --bgcolor-1-invert: rgb(245, 245, 245);
+   --bgcolor-2-invert: rgb(235, 235, 235);
+   --bgcolor-3-invert: rgb(225, 225, 225);
+   --bgcolor-4-invert: rgb(215, 215, 215);
+   --bgcolor-5-invert: rgb(205, 205, 205);
+   --bgcolor-6-invert: rgb(195, 195, 195);
+   --bgcolor-7-invert: rgb(185, 185, 185);
+   --bgcolor-8-invert: rgb(175, 175, 175);
+   --bgcolor-9-invert: rgb(165, 165, 165);
+    // 反相
+   --text-color-0: rgb(255, 255, 255);
+   --text-color-1: rgb(235, 235, 235);
+   --text-color-2: rgb(215, 215, 215);
+   --text-color-3: rgb(195, 195, 195);
+   --text-color-4: rgb(175, 175, 175);
+   --text-color-5: rgb(155, 155, 155);
+   --text-color-6: rgb(135, 135, 135);
+   --text-color-7: rgb(115, 115, 115);
+   --text-color-8: rgb(95, 95, 95);
+   --text-color-9: rgb(75, 75, 75);
+    // 字体颜色
+   --text-color-0-invert: rgb(0, 0, 0);
+   --text-color-1-invert: rgb(30, 30, 30);
+   --text-color-2-invert: rgb(50, 50, 50);
+   --text-color-3-invert: rgb(70, 70, 70);
+   --text-color-4-invert: rgb(90, 90, 90);
+   --text-color-5-invert: rgb(110, 110, 110);
+   --text-color-6-invert: rgb(130, 130, 130);
+   --text-color-7-invert: rgb(150, 150, 150);
+   --text-color-8-invert: rgb(170, 170, 170);
+   --text-color-9-invert: rgb(190, 190, 190);
+    // 边界
+   --border-0: 1px solid rgb(36, 37, 42);
+   --border-1: 1px solid rgb(49, 50, 56);
+   --border-2: 1px solid rgb(62, 63, 70);
+   --border-3: 1px solid rgb(75, 76, 83);
+   --border-4: 1px solid rgb(88, 89, 96);
+   --border-5: 1px solid rgb(101, 102, 109);
+   --border-6: 1px solid rgb(114, 115, 122);
+   --border-7: 1px solid rgb(127, 128, 135);
+   --border-8: 1px solid rgb(140, 141, 148);
+   --border-9: 1px solid rgb(153, 154, 161);
+    // 表单样式
+   --form-bgcolor: #27282d;
+   --form-bgcolor-hover: #2a2a2f;
+   --form-bgcolor-active: #202025;
+   --form-bgcolor-focus: #1f1f22;
+   --form-border-color-hover: rgb(59, 58, 58);
+   --form-border-color-focus: var(--color-primary);
+   --form-ouline: 0px var(--color-primary-light) solid;
+    // tabs
+   --tabs-active-color: rgb(14, 14, 14);
+    // dialog / modal
+   --modal-bgcolor: rgba(0, 0, 0, 0.45);
+   --modal-header-border: 1px rgba(255, 255, 255, 0.1) solid;
+   --modal-footer-border: 1px rgba(255, 255, 255, 0.1) solid;
+    // drawer
+   --drawer-bgcolor: rgba(0, 0, 0, 0.45);
+   --drawer-header-border: 1px rgba(255, 255, 255, 0.1) solid;
+   --drawer-footer-border: 1px rgba(255, 255, 255, 0.1) solid;
+    //  dialog / modal box
+   --modal-box-bgcolor: #323339;
+    // loading
+   --loading-bgcolor: rgba(0, 0, 0, 0.7);
+    // povpoer
+   --popover-bgcolor: #323339;
+    // message
+   --message-bgcolor: #4d4d58;
+    // notification
+   --notification-bgcolor: #4d4d58;
+    // popover
+   --popover-border: 1px rgba(255, 255, 255, 0.15) solid;
+    // table
+   --table-header-bgColor: #131418;
+   --table-border: 1px rgba(255, 255, 255, 0.05) solid;
+   --table-tr-selected: #3f4350;
+   --table-scroll-line-color-start: rgba(0, 0, 0, 0);
+   --table-scroll-line-color-end: rgba(0, 0, 0, 0.2);
+    // checkbox
+   --checkbox-block-color: var(--bgcolor-2);
+   --checkbox-border-color: var(--bgcolor-4);
+   --checkbox-color: var(--color-primary);
+   --checkbox-color-light: var(--color-primary-light);
+   --checkbox-border-color-hover: var(--color-primary);
+   --radio-block-color: var(--bgcolor-2);
+   --radio-border-color: var(--bgcolor-4);
+   --radio-border-color-hover: var(--color-primary);
+   --radio-color: var(--color-primary);
+   --radio-color-light: var(--color-primary-light);
+   --pop-bg: #242529;
+   --pop-bg-active: rgba(255, 255, 255, 0.05);
+   --tooltip-bg: #43444a;
+   --tooltip-color: #fff;
+  }

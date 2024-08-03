@@ -15,5 +15,14 @@ export default defineConfig({
       external: ['vue'],
       treeshake: true
     }
+  },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: `
+          @import "src/assets/scss/index.scss";
+       `
+      }
+    }
   }
 })
