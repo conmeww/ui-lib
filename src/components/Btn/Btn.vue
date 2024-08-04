@@ -2,6 +2,8 @@
 import { ref, computed } from 'vue'
 import {object2class, getColorType} from '../../utils/setStyles'
 import { buttonProps } from './Btn'
+import {Icon} from '../Icon'
+import { mdiAccount } from '@mdi/js'
 const emit = defineEmits(['click'])
 const props = defineProps(buttonProps)
 
@@ -91,7 +93,8 @@ const getStyle = computed(() => {
     loader
     </div>
     <template v-if="iconPosition === 'left'">
-      icon right
+  <Icon :iconName="icon">
+</Icon>
     </template>
     <div v-if="$slots.default || text" class="button-content">
       <span class="button-text">
@@ -104,7 +107,10 @@ const getStyle = computed(() => {
       </span>
     </div>
     <template v-if="iconPosition === 'right'">
-icon right  </template>
+
+icon right  
+</template>
+
   </button>
 </template>
 

@@ -18,6 +18,8 @@
   },
   "devDependencies": {
     "@iconify/json": "^2.1.7",
+    "@jamescoyle/vue-icon": "^0.1.2",
+    "@mdi/js": "^7.4.47",
     "@rushstack/eslint-patch": "^1.1.0",
     "@types/jsdom": "^16.2.14",
     "@types/node": "^16.11.25",
